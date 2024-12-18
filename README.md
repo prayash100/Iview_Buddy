@@ -45,9 +45,9 @@ Check out the live demo of the project here: [Iview Buddy](https://iview-buddy.o
 3. Input the job description and upload a resume (PDF or DOCX format). The app will generate personalized interview questions based on the job description and resume.
 
 ## How to Use the App
-Step 1: Enter the Job Description in the provided text area.
-Step 2: Upload the Resume (PDF or DOCX format) of the candidate.
-Step 3: Click on Generate Interview Questions to receive ATS score and personalized interview questions.
+1. Enter the Job Description in the provided text area.
+2. Upload the Resume (PDF or DOCX format) of the candidate.
+3. Click on Generate Interview Questions to receive ATS score and personalized interview questions.
 
 **Important: Make sure to create a .env file in the root directory and define the GOOGLE_API_KEY variable as described above.**
 **This API key is necessary to make the app function.**
