@@ -8,8 +8,23 @@ import re
 # Initialize Flask app
 app = Flask(__name__)
 
+
+
+
+
+from dotenv import load_dotenv
+
+load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
+
 # Configure the Bard API
-genai.configure(api_key="AIzaSyCQl9e_WuUvmK7IsYtGX0MhrPwH5lTSDzQ")  # Replace with your actual API key
+genai.configure()  # Replace with your actual API key
+
+
+
+
+
+
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Function to extract text from PDF
